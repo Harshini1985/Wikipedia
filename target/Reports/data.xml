@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="66.698653">
+<testcase classname="To validate the main page" name="To launch the URL" time="14.068334">
+<system-out><![CDATA[Given User launch the browser and navigates to main page....................passed
+Then User should be able to view the main page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the main page" name="To click on the magnify image to search" time="16.983451">
+<system-out><![CDATA[Given User launch the browser and navigates to main page....................passed
+When User enters search keyword in the search field.........................passed
+And User clicks on the magnify image........................................passed
+Then User validates the relevant search results.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the main page" name="To check if the Commons Link is navigating to Wikimedia Commons" time="13.777238">
+<system-out><![CDATA[Given User launch the browser and navigates to main page....................passed
+When User clicks on the Commons Link in the main page.......................passed
+Then User should be able to navigate to Wikimedia Commons...................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the main page" name="To check if help link is working" time="21.86963">
+<system-out><![CDATA[Given User launch the browser and navigates to main page....................passed
+When User clicks on the help link in the main page..........................passed
+Then User should be able to navigate to the help page.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

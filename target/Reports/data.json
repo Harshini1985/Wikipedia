@@ -1,0 +1,341 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4440908080,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the browser and navigates to main page",
+            "match": {
+              "location": "WikiSteps.user_launch_the_browser_and_navigates_to_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9336394194,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To launch the URL",
+        "description": "",
+        "id": "to-validate-the-main-page;to-launch-the-url",
+        "after": [
+          {
+            "result": {
+              "duration": 127114962,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156585869,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to view the main page",
+            "match": {
+              "location": "WikiSteps.user_should_be_able_to_view_the_main_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC01"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4620821608,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the browser and navigates to main page",
+            "match": {
+              "location": "WikiSteps.user_launch_the_browser_and_navigates_to_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4834753286,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To click on the magnify image to search",
+        "description": "",
+        "id": "to-validate-the-main-page;to-click-on-the-magnify-image-to-search",
+        "after": [
+          {
+            "result": {
+              "duration": 239702096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3317817340,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters search keyword in the search field",
+            "match": {
+              "location": "WikiSteps.user_enters_search_keyword_in_the_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3796961520,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on the magnify image",
+            "match": {
+              "location": "WikiSteps.user_clicks_on_the_magnify_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172615616,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User validates the relevant search results",
+            "match": {
+              "location": "WikiSteps.user_validates_the_relevant_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC02"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5225071204,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the browser and navigates to main page",
+            "match": {
+              "location": "WikiSteps.user_launch_the_browser_and_navigates_to_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5012366465,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "To check if the Commons Link is navigating to Wikimedia Commons",
+        "description": "",
+        "id": "to-validate-the-main-page;to-check-if-the-commons-link-is-navigating-to-wikimedia-commons",
+        "after": [
+          {
+            "result": {
+              "duration": 314142084,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2838336171,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the Commons Link in the main page",
+            "match": {
+              "location": "WikiSteps.user_clicks_on_the_Commons_Link_in_the_main_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 386655919,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be able to navigate to Wikimedia Commons",
+            "match": {
+              "location": "WikiSteps.user_should_be_able_to_navigate_to_Wikimedia_Commons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC03"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4470810917,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the browser and navigates to main page",
+            "match": {
+              "location": "WikiSteps.user_launch_the_browser_and_navigates_to_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4024957876,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "To check if help link is working",
+        "description": "",
+        "id": "to-validate-the-main-page;to-check-if-help-link-is-working",
+        "after": [
+          {
+            "result": {
+              "duration": 7737572808,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2527740619,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on the help link in the main page",
+            "match": {
+              "location": "WikiSteps.user_clicks_on_the_help_link_in_the_main_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3107795701,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should be able to navigate to the help page",
+            "match": {
+              "location": "WikiSteps.user_should_be_able_to_navigate_to_the_help_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC04"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the main page",
+    "description": "",
+    "id": "to-validate-the-main-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Regression/Wiki.feature",
+    "tags": []
+  }
+]
